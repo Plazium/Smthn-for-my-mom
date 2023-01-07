@@ -5,28 +5,28 @@ var menu4 = document.getElementById("menu4")
 function changeMenu(n) {
  switch(n) {
    case "1":
-      menu1.style.display = block
-      menu2.style.display = hidden
-      menu3.style.display = hidden
-      menu4.style.display = hidden
+      page1.style.display = block
+      page2.style.display = hidden
+      page3.style.display = hidden
+      page4.style.display = hidden
      break;
    case "2":
-      menu1.style.display = hidden
-      menu2.style.display = block
-      menu3.style.display = hidden
-      menu4.style.display = hidden
+      page1.style.display = hidden
+      page2.style.display = block
+      page3.style.display = hidden
+      page4.style.display = hidden
      break;
    case "3":
-      menu1.style.display = hidden
-      menu2.style.display = hidden
-      menu3.style.display = block
-      menu4.style.display = hidden
+      page1.style.display = hidden
+      page2.style.display = hidden
+      page3.style.display = block
+      page4.style.display = hidden
      break;
    case "4":
-      menu1.style.display = hidden
-      menu2.style.display = hidden
-      menu3.style.display = hidden
-      menu4.style.display = block
+      page1.style.display = hidden
+      page2.style.display = hidden
+      page3.style.display = hidden
+      page4.style.display = block
      break;
  }
 }
